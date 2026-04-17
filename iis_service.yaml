@@ -1,7 +1,7 @@
 ---
 - name: Manage Windows Service
   hosts: all
-
+  gather_facts: false
   vars:
     #service_name: Spooler   # Example: Print Spooler
     #action: stopped        # started / stopped / restarted
