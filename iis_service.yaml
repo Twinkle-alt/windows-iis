@@ -3,8 +3,8 @@
   hosts: all
 
   vars:
-    service_name: Spooler   # Example: Print Spooler
-    action: stopped        # started / stopped / restarted
+    #service_name: Spooler   # Example: Print Spooler
+    #action: stopped        # started / stopped / restarted
 
   tasks:
     - name: Manage Windows service
